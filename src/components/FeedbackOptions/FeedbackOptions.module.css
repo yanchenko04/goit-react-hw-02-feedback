@@ -1,0 +1,27 @@
+.options{
+    display: flex;
+}
+.options_button{
+    height: 40px;
+    width: 70px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+
+}
+.options_button:not(:last-child){
+    margin-right: 10px;
+}
+.options_button:first-child{
+    background-color: rgb(32, 255, 55);
+}
+.options_button:nth-child(2){
+    background-color: rgb(224, 252, 42);
+}
+.options_button:last-child{
+    background-color: rgb(209, 22, 22);
+}

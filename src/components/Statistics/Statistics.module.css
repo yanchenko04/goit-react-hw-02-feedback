@@ -1,0 +1,24 @@
+.statistics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statistics_title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: none;
+
+}
+.statistics_list{
+
+}
+.statistics_item{
+    font-weight: 600;
+
+}
+.statistics_value{
+    font-weight: 1000;
+    margin-left: 10px;
+
+}
